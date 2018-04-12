@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+    background-image: url('../Images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    min-height: 100%;
+}
+
+.content {
+    position: absolute;
+    width: 500px;
+    height: max-content;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow:  3px 3px 8px rgba(0,0,0,0.3);
+}
+
+/*@media (max-width: 1024px) {*/
+    /*!* Specific to this particular image *!*/
+    /*body {}*/
+/*}*/
+
+
+.caption h1 {
+    width: 460px;
+    color: darkblue;
+}
+
+.text1 {
+    margin-top: 50px;
+}
+
+.text1 h1 {
+    color: cornflowerblue;
+
+}
+
+.myform{
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+
+.form-group input{
+    height: 30px;
+    width: 400px;
+}
+
+.btn-primary{
+    height: 40px;
+    width: 100px;
+
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.help{
+    color: cornflowerblue;
+}

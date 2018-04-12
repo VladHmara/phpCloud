@@ -1,0 +1,117 @@
+body{
+    min-width: 1000px;
+}
+.content-shapka{
+    height: 130px;
+    padding: 10px;
+}
+
+.top{
+    width: 100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+.logo img{
+    height: auto;
+    width: 120px;
+}
+
+.search{
+    float:right;
+}
+
+.way{
+    margin: 0 0 0 40px;
+    width: 1370px;
+    height: 50px;
+    background-color: #ABCDEF;
+}
+
+.log_in button{
+    background-color: #80bdff;
+    width: 120px;
+    float: right;
+}
+
+.check_in button{
+    background-color: #80bdff;
+    width: 120px;
+    float: right;
+}
+
+.add button{
+    background-color: #80bdff;
+    width: 120px;
+}
+
+.form-inline button{
+    background-color: #80bdff;
+}
+
+.content-main{
+    margin-top:130px;
+    width: 100%;
+    height: auto;
+    padding: 3px;
+}
+.main{
+    margin-top: 130px;
+}
+
+.menu{
+    width: 200px;
+    min-width: 200px;
+    padding: 20px;
+    height: 1000px;
+    box-shadow:  3px 0px 8px rgba(0,0,0,0.3);
+}
+
+ul.tree, ul.tree ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.tree ul {
+    margin-left: 10px;
+}
+ul.tree li {
+    margin: 0;
+    padding: 0px 7px;
+    line-height: 20px;
+    color: cornflowerblue;
+    font-weight: bold;
+    border-left:1px solid rgb(100,100,100);
+
+}
+ul.tree li:last-child {
+    border-left:none;
+}
+ul.tree li:before {
+    position:relative;
+    top:-0.3em;
+    height:1em;
+    width:12px;
+    color:white;
+    border-bottom:1px solid rgb(100,100,100);
+    content:"";
+    display:inline-block;
+    left:-7px;
+}
+ul.tree li:last-child:before {
+    border-left:1px solid rgb(100,100,100);
+}
+.content-shapka{
+    box-shadow:  0px 3px 8px rgba(0,0,0,0.3);
+}
+
+.files img{
+    width: auto;
+    height: 150px;
+}
+
+.files{
+
+    padding: 10px;
+   text-align: center;
+}
